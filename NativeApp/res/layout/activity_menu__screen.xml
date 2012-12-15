@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageButton android:id="@+id/btnNextScreen"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dip"
+        android:src="@drawable/gertrude" />
+    
+    <ImageButton android:id="@+id/btnNextScreen2"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dip"
+        android:src="@drawable/gertrude" />
+    
+    <ImageButton android:id="@+id/btnNextScreen3"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="165dip"
+        android:src="@drawable/gertrude" />
+    
+    <ImageButton android:id="@+id/btnNextScreen4"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dip"
+        android:src="@drawable/gertrude" />
+    
+
+</RelativeLayout>
