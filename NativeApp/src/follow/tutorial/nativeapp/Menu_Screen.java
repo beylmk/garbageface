@@ -3,6 +3,7 @@ package follow.tutorial.nativeapp;
 import android.app.Activity;
 import android.os.Bundle;
 import android.content.Intent;
+import android.graphics.Canvas;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
@@ -13,7 +14,6 @@ public class Menu_Screen extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 	    super.onCreate(savedInstanceState);
-	    
 	    setContentView(R.layout.activity_menu__screen);
 	
 	    ImageButton attract = (ImageButton) findViewById(R.id.btnNextScreen);
